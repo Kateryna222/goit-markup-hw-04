@@ -182,26 +182,6 @@ border-top: none;
   text-transform: capitalize;  
   color: var(--title-text-color);
   }
-
-
-  .social-list{
-
-  }
-  .social-list-link {
-
-  }
-
-  .social-list-icon{
-
-  }
-
-  .social-list-item {
-
-  }
-
-
-
-
   
 /* ================= /COMPONENTS ================= */
 
@@ -364,19 +344,19 @@ background-color: #F4F4FD;
 }
 
 .icon-strategy::before {
-  background-image: url("..//images/svg/strategy.svg");
+  background-image: url("..//images/strategy.svg");
 }
 .icon-punctuality::before {
-  background-image: url("..//images/svg/punctuality.svg");
+  background-image: url("..//images/punctuality.svg");
 }
 
 .icon-diligence::before {
-  background-image: url("..//images/svg/diligence.svg");
+  background-image: url("..//images/diligence.svg");
 
 }
 
 .icon-technologies::before {
-  background-image: url("..//images/svg/technologies.svg");
+  background-image: url("..//images/technologies.svg");
 }
 
 
@@ -463,13 +443,34 @@ background-color: #F4F4FD;
 
 /* ====================costumers ==================*/
 
-.costomers-list{
 
+.section-team {
+  padding-top: 0; 
+  padding-bottom: 0;
 }
 
-.costomers-list-item {
+  .costomers-list {
 
-}
+    display: flex;
+    Padding: 0px, 0px, 32px, 0px;
+    Gap: 24px;
+    outline: 1px solid var(--border-line);
+    list-style: none;
+  }
+/*  
+  .costomers-list-item {
+  
+    width: 68px;
+    height: 168px;
+  }   */
+
+  .costumers-botton {
+    padding: 16px 32px;
+    border: none;
+  }
+
+  .costomers-logo {
+  }
 
 
 
