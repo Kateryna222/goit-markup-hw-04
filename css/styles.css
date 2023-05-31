@@ -364,19 +364,19 @@ background-color: #F4F4FD;
 }
 
 .icon-strategy::before {
-  background-image: url("../images/strategy.svg");
+  background-image: url("..//images/svg/strategy.svg");
 }
 .icon-punctuality::before {
-  background-image: url("..//images/punctuality.svg");
+  background-image: url("..//images/svg/punctuality.svg");
 }
 
 .icon-diligence::before {
-  background-image: url("..//images/diligence.svg");
+  background-image: url("..//images/svg/diligence.svg");
 
 }
 
 .icon-technologies::before {
-  background-image: url("..//images/echnologies.svg");
+  background-image: url("..//images/svg/technologies.svg");
 }
 
 
