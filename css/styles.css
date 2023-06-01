@@ -494,6 +494,7 @@ background-color: #F4F4FD;
     list-style: none;
     height: 88px;
     width: 168px;
+    width: calc((100% - 120px) / 6)
   }
 
   .custumers-list-link {
