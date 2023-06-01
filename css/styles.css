@@ -354,31 +354,11 @@ background-color: #F4F4FD;
   align-items: center;
   justify-content: center; 
   height: 112px;
-  background-color: #F4F4FD;
+  background-color: var(--backgound-Team-cloud);
   border-radius: 4px;
   margin-bottom: 8px; 
   } 
- /* .feature-list-icon p{
-  background-size: content;
-  background-repeat: no-repeat;
-  background-position: center; */
- }
-/* 
-.icon-strategy::before {
-  background-image: url("..//images/strategy.svg");
-}
-.icon-punctuality::before {
-  background-image: url("..//images/punctuality.svg");
-}
 
-.icon-diligence::before {
-  background-image: url("..//images/diligence.svg");
-
-}
-
-.icon-technologies::before {
-  background-image: url("..//images/technologies.svg");
-} */ */
 
 
 .feature-list .text {
@@ -595,3 +575,26 @@ color: var(--title-text-color);
  }
 
 
+
+
+  /* .feature-list-icon p{
+  background-size: content;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+/* 
+.icon-strategy::before {
+  background-image: url("..//images/strategy.svg");
+}
+.icon-punctuality::before {
+  background-image: url("..//images/punctuality.svg");
+}
+
+.icon-diligence::before {
+  background-image: url("..//images/diligence.svg");
+
+}
+
+.icon-technologies::before {
+  background-image: url("..//images/technologies.svg");
+} */ */
