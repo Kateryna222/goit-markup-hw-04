@@ -191,12 +191,12 @@ border-top: none;
     display: flex;
     justify-content: center;
     gap: 24px; 
-
+   
   }
   .social-list-item {
-    
     width: 40px;
     height: 40px;
+
   }
 
   .social-list-link {
@@ -472,9 +472,10 @@ background-color: #F4F4FD;
 }
 
 .team-item-content .text {
-  /* line-height: 1.5; */
+
   text-align: center;
   color: var(--primary-text-color);
+  margin-bottom: 8px;
 }
  
 /* =================  /our team  ================= */
@@ -599,10 +600,13 @@ color: var(--title-text-color);
   padding-top: 100px; 
   padding-bottom: 100px;
   background-color: var(--title-text-color);
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
   display: inline-block;
+  margin-right: 120px
   margin-bottom: 16px;
   font-family: var(--secondary-font-family);
   font-style: normal;
@@ -625,7 +629,19 @@ color: var(--title-text-color);
   color: var(--backgound-Team-cloud);
  }
 
+ .social-media-text {
+  font-weight: 500 
+  var(--primary-white-color);
+  margin-bottom: 16px;
+ }
 
+
+ .footer-social-media {
+  display: flex;
+  gap: 16px;
+
+
+ }
 
 
   /* .feature-list-icon p{
