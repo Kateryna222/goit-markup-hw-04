@@ -23,7 +23,7 @@
   --sosial-links: #4d5ae5;
   --icon-color: #f4f4fd;
   --icon-customers:  #8e8f99;
-  -- : 31d0aa;
+  --click-color: #31d0aa;
 }
 
 html {
@@ -271,7 +271,7 @@ border-top: none;
   font-family: var(--secondary-font-family);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,17;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -438,7 +438,7 @@ padding: 120px 0;
 
  .team-list {
     display: flex;
-    Padding: 0px, 0px, 32px, 0px;
+    Padding: 0px 0px 32px 0px;
     Gap: 24px;
   }  
 
@@ -480,7 +480,7 @@ padding: 120px 0;
 
   .customers-list {
     display: flex;
-    Padding: 0px, 0px, 32px, 0px;
+    Padding: 0px 0px 32px 0px;
     Gap: 24px;
     outline: 1px solid var(--border-line);
     list-style: none;
@@ -650,7 +650,7 @@ color: var(--title-text-color);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: #31d0aa; 
+  background-color: var(--click-color); 
 }
 
 
