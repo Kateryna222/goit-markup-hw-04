@@ -590,11 +590,9 @@ color: var(--title-text-color);
 .footer-container {
   display: flex; 
   align-items: baseline;
-}
-
-.footer-logo-media {
   margin-right: 120px; 
 }
+
 
 .footer-logo {
   display: inline-block;
@@ -620,16 +618,17 @@ color: var(--title-text-color);
   color: var(--backgound-Team-cloud);
  }
 
+ .footer-social-media {
+  margin-right: 120px; 
+
+ }
+
  .social-media-text {
   margin-bottom: 16px;
   color: var(--primary-white-color);
   font-weight: 500;  
  }
 
- .footer-social-media {
-  display: flex;
-  gap: 16px;
- }
 .footer-social-list {
   display: flex;
   justify-content: center;
