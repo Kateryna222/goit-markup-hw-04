@@ -597,7 +597,6 @@ color: var(--title-text-color);
   align-items: baseline;
 }
 
-
 .footer-logo {
   display: inline-block;
   margin-right: 120px;
@@ -624,17 +623,14 @@ color: var(--title-text-color);
  }
 
  .social-media-text {
-  font-weight: 500 
-  var(--primary-white-color);
+  font-weight: 500;
+  color: var(--primary-white-color);
   margin-bottom: 16px;
  }
-
 
  .footer-social-media {
   display: flex;
   gap: 16px;
-
-
  }
 
 
