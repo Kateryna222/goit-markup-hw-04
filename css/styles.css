@@ -512,10 +512,6 @@ padding: 120px 0;
     fill: currentColor;
   }
 
-
-
-
-
 /* ====================costumers ==================*/
 
 /* =================  portfolio  ================= */
@@ -532,7 +528,6 @@ padding: 120px 0;
   gap: 24px;
   
 }
-
 
 .filter-item {
   text-decoration: none;
@@ -597,9 +592,12 @@ color: var(--title-text-color);
   align-items: baseline;
 }
 
+.footer-logo-media {
+  margin-right: 120px; 
+}
+
 .footer-logo {
   display: inline-block;
-  margin-right: 120px;
   margin-bottom: 16px;
   font-family: var(--secondary-font-family);
   font-style: normal;
@@ -623,15 +621,26 @@ color: var(--title-text-color);
  }
 
  .social-media-text {
-  font-weight: 500;
-  color: var(--primary-white-color);
   margin-bottom: 16px;
+  color: var(--primary-white-color);
+  font-weight: 500;  
  }
 
  .footer-social-media {
   display: flex;
   gap: 16px;
  }
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px; 
+}
+
+
+.footer-social-list >.social-list-link:hover,
+.footer-social-list >.social-list-link:focus  {
+  background-color: #31d0aa; 
+}
 
 
   /* .feature-list-icon p{
