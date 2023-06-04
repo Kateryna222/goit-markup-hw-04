@@ -486,7 +486,6 @@ body {
 
   .customers-list-item {
   width: calc((100% - 120px) / 6);
-  /* outline: 1px solid var(--border-line); */
   height: 88px;
   }
 
