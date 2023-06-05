@@ -489,7 +489,7 @@ body {
   height: 88px;
   }
 
-  .custumers-list-link {
+  .customers-list-link {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
@@ -500,16 +500,16 @@ body {
   color: var(--icon-customers);
   }
 
-.custumers-list-link:hover,
-.custumers-list-link:focus {
-  border-color: #404bbf;
-  color: #404bbf;
+.customers-list-item:hover .customers-logo,
+.customers-list-link:focus .customers-logo {
+ color:  #404bbf;;
   }
 
 
 .customers-logo {
   fill: currentColor;
   }
+
 
 /* ====================costumers ==================*/
 
